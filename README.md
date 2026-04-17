@@ -29,6 +29,13 @@ Cleaned and standardized messy ticket status data from a helpdesk system without
 
 **Skills used:** `CREATE VIEW`, `CASE WHEN`, `GROUP BY`, `COUNT`, `UNION ALL`, conditional aggregation
 
+## Key Insight
+
+There were a total of 1,500 tickets logged during this period, with 889 successfully closed. The Mobile App channel generated the highest number of tickets (234), indicating strong support demand. However, despite this high volume, it does not have the highest resolution rate.
+
+In contrast, the Phone channel shows a higher percentage of closed tickets relative to its volume, suggesting more efficient handling. This indicates that while the Mobile App channel carries the largest workload, it may also be a potential bottleneck where resolution efficiency can be improved.
+
+
 ---
 
 ## 📬 Contact
