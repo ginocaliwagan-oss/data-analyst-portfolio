@@ -15,13 +15,12 @@ A working professional transitioning into data analytics, with hands-on experien
 
 ## 📊 Project Overview
 
-This project analyzes customer support ticket data to understand workload distribution, channel performance, and customer behavior across channels and segments.
+This project analyzes customer support ticket data to understand workload distribution, operational performance, and customer behavior across channels, segments, and time.
 
-The goal is to simulate a real-world data analytics workflow using:
-SQL → Excel → Power BI
+The goal is to simulate a real-world data analytics workflow:
+SQL → Excel (validation) → Power BI (visualization)
 
-This repository focuses on the SQL phase, including data cleaning, KPI generation, and performance analysis.
-
+This repository focuses on the SQL phase, including data cleaning, KPI generation, and advanced performance analysis.
 ---
 
 ## 📁 Projects
@@ -40,6 +39,22 @@ Cleaned and standardized messy ticket status data from a helpdesk system without
 - Measured each channel’s contribution to total resolved tickets
 - Performed multi-dimensional analysis (segment + channel + performance)
 
+📊 Advanced Analysis (Tasks 11–15)
+- Segment Ticket Status Breakdown
+  Compared ticket distribution across customer segments to identify workload and resolution patterns
+  
+- Open Ticket Aging Analysis
+  Measured how long tickets remain unresolved using DATEDIFF and aging buckets
+  
+- Response Time Distribution
+  Evaluated support responsiveness by categorizing tickets into response speed groups
+  
+- Issue Type Analysis
+  Identified key drivers of support demand and calculated each issue type’s contribution to total tickets
+  
+- Time-Based Trend Analysis (Monthly & Quarterly)
+  Analyzed ticket volume trends over time using DATE_FORMAT, YEAR, and QUARTER
+
 ## 🔍 Key Insight
 
 **High volume does not equal high performance.**
@@ -48,17 +63,21 @@ Out of 1,500 total tickets, 889 were successfully closed. The Mobile App channel
 
 In contrast, the Phone channel demonstrates higher closure efficiency relative to its volume. This suggests that while the Mobile App channel carries the largest workload, it may also be a potential bottleneck where resolution efficiency can be improved.
 
+Additional analysis shows that ticket volume is distributed across multiple issue types and time periods, indicating that support demand is influenced by several operational factors rather than a single dominant driver.
+
 **Skills used:**
-- SQL Views (`CREATE VIEW`)
-- Data Transformation (`CASE WHEN`)
-- Joins (`INNER JOIN`)
-- Aggregation (`GROUP BY`, `COUNT`)
-- Conditional Aggregation
-- Percentage Calculations (closure rates)
+- Data Cleaning & Transformation (CASE WHEN, Views)
+- Data Aggregation (GROUP BY, COUNT)
+- Conditional Aggregation (Pivot-style reporting)
+- Joins (INNER JOIN)
+- Time-Based Analysis (DATE_FORMAT, YEAR, QUARTER)
+- Performance Metrics (closure rates, percentages)
+- Handling Missing Data (COALESCE, NULL logic)
+- Multi-dimensional Analysis (segment, channel, time)
 
 ## 🗂️ SQL Analysis Coverage
 
-This project includes structured SQL queries covering:
+his project includes structured SQL queries covering:
 
 - Data cleaning and transformation
 - KPI summary (total, open, closed, pending tickets)
@@ -67,6 +86,9 @@ This project includes structured SQL queries covering:
 - Closed ticket contribution by channel
 - Customer segment analysis
 - Multi-dimensional analysis (segment + channel performance)
+- Response time and aging analysis
+- Issue type contribution
+- Time-based trend analysis (monthly and quarterly)
 
 ## ▶️ How to Explore
 
