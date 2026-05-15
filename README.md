@@ -192,10 +192,10 @@ Evaluated operational efficiency using closure rate monitoring, resolution bench
 ![Channel Dashboard](images/channel_analysis_powerBI.png)
 
 ### Issue Type Dashboard
-![Issue Type Dashboard](images/issue_type_analysis_powerBI.png)
+![Issue Type Dashboard](images/Issue_type_analysis_powerBI.png)
 
 ### Resolution Performance Dashboard
-![Resolution Dashboard](images/resolution_performance_powerBI.png)
+![Resolution Dashboard](images/Resolution_performance_powerBI.png)
 
 
 
