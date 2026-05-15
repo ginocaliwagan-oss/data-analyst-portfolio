@@ -20,11 +20,7 @@ This project analyzes customer support ticket data to understand workload distri
 The goal is to simulate a real-world data analytics workflow:
 SQL → Excel (validation) → Power BI (visualization)
 
-This repository currently focuses on SQL analysis and Excel-based data validation, including data cleaning, KPI generation, exploratory analysis, and performance reporting.
-
-## 📷 Dashboard Preview
-
-![Dashboard Overview](images/Dashboard%20Overview.png)
+This repository demonstrates an end-to-end analytics workflow using SQL, Excel, and Power BI for operational reporting and business intelligence analysis.
 
 ## 📌 Executive Summary
 
@@ -124,34 +120,6 @@ This project includes structured SQL queries covering:
 
 Before building reports and dashboards, the dataset was validated and cleaned using Excel to ensure consistency and reliability.
 
-### 2. Customer Support Dashboard (PowerBI)
-
-**Folder:** '/images'
-
-**Dashboard Features:**
-- KPI summary cards
-- Ticket volume by channel
-- Channel closure rate analysis
-- Issue type performance breakdown
-- Monthly ticket trend analysis
-- Operational performance overview
-
-**What I did:**
-- Designed KPI-focused dashboard layouts
-- Created interactive visual reports
-- Built trend and performance visualizations
-- Applied business-focused dashboard storytelling
-- Organized visuals for executive readability
-
-**Skills used:**
-- Power BI
-- Data Visualization
-- KPI Reporting
-- Dashboard Design
-- Business Reporting
-- Trend Analysis
-- Operational Analytics
-
 ### Validation Steps Performed
 - Imported and structured the dataset into Excel Tables
 - Identified missing values using `COUNTBLANK()`
@@ -164,6 +132,72 @@ Before building reports and dashboards, the dataset was validated and cleaned us
 - Blank `closed_at` and `resolution_minutes` values aligned with unresolved tickets
 - No duplicate `ticket_id` values were identified
 - Missing `order_id` values appeared across all statuses and issue types, suggesting order references may not be mandatory for all support interactions
+  
+### 2. Customer Support Dashboard (Power BI)
+
+**Folder:** `/powerbi`
+
+Built a multi-page interactive Power BI dashboard focused on customer support operations, issue management, and resolution performance analysis.
+
+### Dashboard Pages
+
+#### 1. Channel Performance Dashboard
+Focused on ticket volume, closure performance, unresolved workload, and operational trends across support channels.
+
+#### 2. Issue Type Dashboard
+Analyzed issue-type contribution, unresolved workload, resolution performance, and support demand distribution.
+
+#### 3. Resolution Performance Dashboard
+Evaluated operational efficiency using closure rate monitoring, resolution benchmarking, unresolved workload analysis, and performance summaries.
+
+### Power BI Features Used
+- KPI Cards
+- Gauge Charts
+- Stacked Bar Charts
+- Donut Charts
+- Area Charts
+- Matrix Visuals
+- Conditional Formatting
+- Interactive Cross-Filtering
+- Multi-Page Dashboard Design
+
+### Skills Used
+- Power BI
+- Data Visualization
+- Dashboard Design
+- KPI Reporting
+- Operational Analytics
+- Business Intelligence Reporting
+- Interactive Reporting
+- Data Storytelling
+  
+**Dashboard Features:**  
+- KPI summary cards
+- Ticket volume by channel
+- Channel closure rate analysis
+- Issue type performance breakdown
+- Monthly ticket trend analysis
+- Operational performance overview
+
+**What I did:**  
+- Designed KPI-focused dashboard layouts
+- Created interactive visual reports
+- Built trend and performance visualizations
+- Applied business-focused dashboard storytelling
+- Organized visuals for executive readability
+
+## 📷 Power BI Dashboard Preview
+
+### Channel Performance Dashboard
+![Channel Dashboard](images/channel_analysis_powerBI.png)
+
+### Issue Type Dashboard
+![Issue Type Dashboard](images/issue_type_analysis_powerBI.png)
+
+### Resolution Performance Dashboard
+![Resolution Dashboard](images/resolution_performance_powerBI.png)
+
+
 
 ## ▶️ How to Explore
 
