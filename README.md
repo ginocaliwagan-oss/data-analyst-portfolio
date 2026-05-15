@@ -125,7 +125,32 @@ This project includes structured SQL queries covering:
 Before building reports and dashboards, the dataset was validated and cleaned using Excel to ensure consistency and reliability.
 
 ### 2. Customer Support Dashboard (PowerBI)
-**Forder:** '/images'
+
+**Folder:** '/images'
+
+**Dashboard Features:**
+- KPI summary cards
+- Ticket volume by channel
+- Channel closure rate analysis
+- Issue type performance breakdown
+- Monthly ticket trend analysis
+- Operational performance overview
+
+**What I did:**
+- Designed KPI-focused dashboard layouts
+- Created interactive visual reports
+- Built trend and performance visualizations
+- Applied business-focused dashboard storytelling
+- Organized visuals for executive readability
+
+**Skills used:**
+- Power BI
+- Data Visualization
+- KPI Reporting
+- Dashboard Design
+- Business Reporting
+- Trend Analysis
+- Operational Analytics
 
 ### Validation Steps Performed
 - Imported and structured the dataset into Excel Tables
