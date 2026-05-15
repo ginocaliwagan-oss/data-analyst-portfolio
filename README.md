@@ -214,4 +214,4 @@ Evaluated operational efficiency using closure rate monitoring, resolution bench
 
 ---
 
-*This portfolio is a work in progress — more projects coming soon!*
+*Finally, i was able to add my Microsoft Excel and PowerBI work then my business insights. 
