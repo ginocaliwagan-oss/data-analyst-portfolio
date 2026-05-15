@@ -22,6 +22,42 @@ SQL → Excel (validation) → Power BI (visualization)
 
 This repository currently focuses on SQL analysis and Excel-based data validation, including data cleaning, KPI generation, exploratory analysis, and performance reporting.
 
+## 📷 Dashboard Preview
+
+![Dashboard Overview](images/Dashboard%20Overview.png)
+
+## 📌 Executive Summary
+
+A total of 1,500 customer support tickets were analyzed from January 2024 to March 2026 to evaluate operational workload, channel performance, issue resolution efficiency, and customer support trends.
+
+The analysis showed that Mobile App, Phone, and Chat generated the highest ticket volumes, indicating that these channels experience the greatest customer support demand. Ticket volume peaked in January 2025 with 70 tickets, while March recorded the lowest monthly volume at 39 tickets.
+
+Overall closure performance remained relatively consistent across channels and issue types, with an overall closure rate of 59.27%. IVR achieved the highest closure rate among all support channels at 62.62%, followed by Web and Chat support.
+
+The findings suggest that while support operations are resolving more than half of all logged concerns, opportunities remain to further improve operational efficiency, reduce recurring issues, and strengthen resolution performance across high-volume support channels.
+
+## 📈 Business Insight
+
+**High ticket volume does not necessarily indicate stronger operational performance.**
+
+Out of 1,500 total tickets, 889 were successfully closed. The Mobile App channel generated the highest ticket volume (234), indicating strong customer support demand. However, it did not achieve the highest closure efficiency.
+
+In contrast, the Phone channel demonstrated stronger closure performance relative to its ticket volume. This suggests that while the Mobile App channel handles the largest workload, it may also represent a potential operational bottleneck where resolution processes can be improved.
+
+Additional analysis showed that ticket demand is distributed across multiple issue types and time periods, indicating that customer support workload is influenced by several operational factors rather than a single dominant issue category.
+
+## 💡 Recommendations
+
+- Conduct deeper analysis on high-volume support channels, particularly the Mobile App channel, to identify recurring issue drivers and operational bottlenecks.
+
+- Strengthen ticket resolution workflows across all support channels to improve overall closure efficiency and customer response consistency.
+
+- Monitor monthly ticket trends regularly to identify workload spikes, resource requirements, and emerging support concerns.
+
+- Review high-frequency issue categories such as Refund, Billing, and Technical Issues to determine opportunities for process improvements or preventive solutions.
+
+- Continue operational improvement initiatives focused on reducing recurring customer concerns while improving overall support performance and customer experience.
+  
 ---
 
 ## 📁 Projects
@@ -58,16 +94,6 @@ Cleaned and standardized inconsistent ticket status data from a helpdesk system 
   
 - **Time-Based Trend Analysis (Monthly & Quarterly)**  
   Analyzed ticket volume trends over time using DATE_FORMAT, YEAR, and QUARTER
-
-## 🔍 Key Insight
-
-**High volume does not equal high performance.**
-
-Out of 1,500 total tickets, 889 were successfully closed. The Mobile App channel generated the highest volume of tickets (234), indicating strong support demand. However, it does not have the highest resolution rate.
-
-In contrast, the Phone channel demonstrates higher closure efficiency relative to its volume. This suggests that while the Mobile App channel carries the largest workload, it may also be a potential bottleneck where resolution efficiency can be improved.
-
-Additional analysis shows that ticket volume is distributed across multiple issue types and time periods, indicating that support demand is influenced by several operational factors rather than a single dominant driver.
 
 **Skills used:**
 - Data Cleaning & Transformation (CASE WHEN, Views)
